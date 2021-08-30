@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding='UTF-8'?>
+<odoo>
+	<record id="asset_manufacturer_msi" model="cn.asset_manufacturer">
+        <field name="name">MSI</field>
+    </record>
+    <record id="asset_manufacturer_dell" model="cn.asset_manufacturer">
+        <field name="name">Dell</field>
+    </record>
+</odoo>

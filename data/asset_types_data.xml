@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding='UTF-8'?>
+<odoo>
+	<record id="asset_type_computer" model="cn.asset_type">
+        <field name="name">Computer</field>
+        <field name="loan_type">temporal</field>
+    </record>
+    <record id="asset_type_smartphone" model="cn.asset_type">
+        <field name="name">Smartphone</field>
+        <field name="loan_type">temporal</field>
+    </record>
+    <record id="asset_type_screen" model="cn.asset_type">
+        <field name="name">Screen</field>
+        <field name="loan_type">temporal</field>
+    </record>
+    <record id="asset_type_keyboard" model="cn.asset_type">
+        <field name="name">Keyboard</field>
+        <field name="loan_type">permanent</field>
+    </record>
+    <record id="asset_type_mouse" model="cn.asset_type">
+        <field name="name">Mouse</field>
+        <field name="loan_type">permanent</field>
+    </record>
+    <record id="asset_type_headset" model="cn.asset_type">
+        <field name="name">Headset</field>
+        <field name="loan_type">permanent</field>
+    </record>
+    <record id="asset_type_pendrive" model="cn.asset_type">
+        <field name="name">Pendrive</field>
+        <field name="loan_type">punctual</field>
+    </record>
+</odoo>
